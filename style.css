@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background:  linear-gradient(-45deg, #00035B, #2A68B5, #00C2D1, #00F5D4);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    height: 100vh;
+  }
+ 
+      
+    .container{
+        max-width: 400px;
+        max-height: 100vh;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        background-color: black;
+        padding: 15px 30px;
+        border: 1px solid #ffff;
+        border-radius: 10px;
+        color: #fff;
+        box-shadow: 0 0 0.2rem #fff,        
+            0 0 0.2rem #fff,        
+            0 0 2rem #fff,         
+            0 0 0.8rem #fff, 
+            0 0 2.8rem #fff,      
+            inset 0 0 0.8rem #fff;  
+
+    }
+    .datas{
+         margin:40px;
+         font-weight: 400;
+         font-family: "Orbitron", sans-serif;
+         background-color: black;
+    }
+    .timedetails {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:2%;
+        flex-wrap: nowrap; 
+      }
+    span{
+         font-size: 32px;
+         background-color: black;
+    }
+   h4 
+    {
+        display:inline;
+        background-color: black;
+        padding: 5px 15px;
+        margin-top: 30%;
+        font-size: 14px;
+    }
+    @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+    }

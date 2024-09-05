@@ -54,8 +54,8 @@ body {
     {
         display:inline-block;
         background-color: black;
-        padding: 5px 15px;
-        margin-top: 30%;
+        padding: 5px ;
+        margin-top: 3%;
         font-size: 14px;
     }
     @keyframes gradient {

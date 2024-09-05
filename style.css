@@ -52,7 +52,7 @@ body {
     }
    h4 
     {
-        display:inline;
+        display:inline-block;
         background-color: black;
         padding: 5px;
         margin-top: 30%;
